@@ -11,8 +11,12 @@ int main()
 	double height;
 	double width;
 	cout << "Enter height and width: ";
-/* write your code here */
-	// calculate area
+
+	cin >> height >> width; 
+
+	double area = height * width;
+
+	cout << "Area of Rectangle is: " << area << endl;
 	
 
 	// write output to console
